@@ -360,7 +360,7 @@ participant: mek.key.participant
 if (!zetsubo.public) {
 if (!m.key.fromMe) return
 }
-let rn = ['recording']
+let rn = ['unavailable']
 let jd = rn[Math.floor(Math.random() * rn.length)];
 if (m.message) {
 zetsubo.sendPresenceUpdate(jd, from)
@@ -1010,7 +1010,7 @@ await loading()
 ┃
 ┃    📚𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : *𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃*.
 ┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *𝐌𝐮𝐥𝐭𝐢-𝐏𝐫𝐞𝐟𝐢𝐱*.
-┃	📅𝐃𝐚𝐭𝐞 𝐒𝐞𝐫𝐯𝐞𝐫 : ${moment.tz('Africa/Nairobi').format('DD/MM/YY')}
+┃	📅𝐃𝐚𝐭𝐞 𝐒𝐞𝐫𝐯𝐞𝐫 : ${moment.tz('Africa/Accra').format('DD/MM/YY')}
 ┃	🕑𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}
 ┃
 ┣━━━━━━━ 𝗔𝗱𝗱 𝗔𝗰𝗰𝗲𝘀 ━━━━━━
